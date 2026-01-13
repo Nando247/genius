@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_mGn7IPCzEfCFQY1edr8pcw" name="CNX_CSV_LOCAL" dataPackage="_mGn7IfCzEfCFQY1edr8pcw" Server="Localhost 127.0.0.1" FilePath="C:/talend/Genius2/ERP/BaseDeDatosERP/LOCAL.csv" Encoding="US-ASCII" FieldSeparatorValue="&quot;|&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" FieldSeparatorType="Custom UTF8"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_mGn7IfCzEfCFQY1edr8pcw" name="default" dataManager="_mGn7IPCzEfCFQY1edr8pcw">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_mGn7IvCzEfCFQY1edr8pcw" id="_FmnMkPCzEfCFQY1edr8pcw" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_mGn7I_CzEfCFQY1edr8pcw" label="COD_LOCAL" length="8" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_mGn7JPCzEfCFQY1edr8pcw" label="LOCAL" length="8" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_mGn7JfCzEfCFQY1edr8pcw" label="COD_UBICACION" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
