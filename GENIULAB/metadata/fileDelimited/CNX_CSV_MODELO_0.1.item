@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
-  <TalendMetadata:DelimitedFileConnection xmi:id="_-YUo0fDREfCOA5hLWVo4Vw" name="CNX_CSV_MODELO" dataPackage="_-YUo0vDREfCOA5hLWVo4Vw" Server="Localhost 127.0.0.1" FilePath="C:/talend/Genius2/ERP/BaseDeDatosERP/MODELO.csv" Encoding="US-ASCII" FieldSeparatorValue="&quot;|&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" FieldSeparatorType="Custom UTF8"/>
-  <orgomg.cwm.resource.record:RecordFile xmi:id="_-YUo0vDREfCOA5hLWVo4Vw" name="default" dataManager="_-YUo0fDREfCOA5hLWVo4Vw">
-    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_-YUo0_DREfCOA5hLWVo4Vw" id="_zrpqwPDREfCOA5hLWVo4Vw" label="MODELO">
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_-YUo1PDREfCOA5hLWVo4Vw" label="MOD1" length="4" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_-YUo1fDREfCOA5hLWVo4Vw" label="MODELO_1" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+  <TalendMetadata:DelimitedFileConnection xmi:id="_VJ5lIfGAEfCCv8thU28tjg" name="CNX_CSV_MODELO" dataPackage="_VJ5lIvGAEfCCv8thU28tjg" Server="Localhost 127.0.0.1" FilePath="C:/talend/Genius2/ERP/BaseDeDatosERP/MODELO.csv" Encoding="US-ASCII" FieldSeparatorValue="&quot;|&quot;" RowSeparatorValue="&quot;\n&quot;" HeaderValue="0" FieldSeparatorType="Custom UTF8"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_VJ5lIvGAEfCCv8thU28tjg" name="default" dataManager="_VJ5lIfGAEfCCv8thU28tjg">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_VJ5lI_GAEfCCv8thU28tjg" id="_Ii_vAPGAEfCCv8thU28tjg" label="MODELO">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_VJ5lJPGAEfCCv8thU28tjg" label="COD_MODELO" length="4" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_VJ5lJfGAEfCCv8thU28tjg" label="MODELO" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
     </ownedElement>
   </orgomg.cwm.resource.record:RecordFile>
 </xmi:XMI>
